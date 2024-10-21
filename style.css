@@ -112,7 +112,7 @@ h6 { font-size: 1.5rem; line-height: 1.6;  letter-spacing: 0; }
    display:inline-block;
 }
 
-@media only screen and (min-width: 550px) {
+@media (min-width: 550px) {
     .lg-view{
        display:inline-block;
     }
