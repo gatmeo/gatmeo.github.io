@@ -20,7 +20,6 @@ function preprint_processData(allText, tableId) {
     var table = '<ul>';
     for (var i = 1; i < allLines.length-1; i++) {
         var data = allLines[i].split('|');
-        table += '<tr valign="top">';
         var topic = data[0];
         var author = data[1];
         var journal = data[2];
