@@ -111,13 +111,20 @@ h6 { font-size: 1.5rem; line-height: 1.6;  letter-spacing: 0; }
    display:inline-block;
 }
 
-@media (min-width: 550px) {
+@media screen and (min-width: 550px) {
     .lg-view{
        display:inline-block;
     }
 
     .sm-view{
        display:none;
+    }
+}
+
+@media (not screen) and (max-width: 550px) {
+    .sm-view{
+       display:none;
+       font-size: 200%;
     }
 }
 
