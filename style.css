@@ -105,20 +105,20 @@ h6 { font-size: 1.5rem; line-height: 1.6;  letter-spacing: 0; }
 
 
 .lg-view{
-   display:inline-block;
-}
-
-.sm-view{
    display:none;
 }
 
-@media screen and (max-width: 550px) {
+.sm-view{
+   display:inline-block;
+}
+
+@media only screen and (min-width: 550px) {
     .lg-view{
-       display:none;
+       display:inline-block;
     }
 
     .sm-view{
-       display:inline-block;
+       display:none;
     }
 }
 
