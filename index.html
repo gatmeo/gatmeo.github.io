@@ -12,6 +12,12 @@
         preprint_loadTableData('./preprints.csv', 'preprints');
       });
     </script>
+    <script src="conference.js?v=1.0.0"></script>
+    <script>
+      $(document).ready(function() {
+        conference_loadTableData('./conferences.csv', 'conferences');
+      });
+    </script>
   </head>
 
   <body class="vsc-initialized">
@@ -36,11 +42,11 @@
       <div class="row">
         <h5>Talks and Presentations</h5>
         <ul>
-          <li> Seminar on <a href="https://www.math.cuhk.edu.hk/~physicsseminar/">Supersymmetric gauge theory</a> at <a href="https://www.math.cuhk.edu.hk/">CUHK</a>, Fall 2023 - Spring 2024.
+          <li> Seminar on <a href="https://www.math.cuhk.edu.hk/~physicsseminar/">Supersymmetric gauge theory</a> at <a href="https://www.math.cuhk.edu.hk/">CUHK</a>, Fall 2024 - present.
             <details><summary>Show/hide summary</summary>
               <ul>
-                <li>Learned symplectic reduction by considering symmetries in classical mechanics systems, and its application to toric and hypertoric geometry</li>
-                <li>Studied the quantization of classical mechanics as QFT, as well as SUSY QFT and its connection with Morse theory</li>
+                <li>The goal of this seminar is to go through the book Quantum Groups and Quantum Cohomology by Davesh Maulik and Andrei Okounkov.</li>
+                <li> This book proves a famous conjecture about supersymmetric gauge theory (The Alday-Gaiotto Tachikawa conjecture) using an action of a quantum group (the Yangian) on the cohomology of quiver varieties. Stable envelopes are introduced in order to define this Yangian action.  </li>
               </ul>
             </details>
           </li>
@@ -58,36 +64,22 @@
           <li> Seminar on <a href="https://www.math.cuhk.edu.hk/~physicsseminar/">Supersymmetric gauge theory</a> at <a href="https://www.math.cuhk.edu.hk/">CUHK</a>, Fall 2023 - Spring 2024.
             <details><summary>Show/hide summary</summary>
               <ul>
-                <li>The goal of this seminar is to go through the book Quantum Groups and Quantum Cohomology by Davesh Maulik and Andrei Okounkov.</li>
-                <li> This book proves a famous conjecture about supersymmetric gauge theory (The Alday-Gaiotto Tachikawa conjecture) using an action of a quantum group (the Yangian) on the cohomology of quiver varieties. Stable envelopes are introduced in order to define this Yangian action.  </li>
+                <li>Learned symplectic reduction by considering symmetries in classical mechanics systems, and its application to toric and hypertoric geometry</li>
+                <li>Studied the quantization of classical mechanics as QFT, as well as SUSY QFT and its connection with Morse theory</li>
               </ul>
             </details>
           </li>
+
       </div>
       <hr>
 
+      <div class="row">
+        <h5>Conferences</h5>
+        <div id="conference"></div>
+      </div>
+      <hr>
 
       <br>
-      <div class="row">
-        <h5>References</h5>
-        <ul>
-          <li>[Arn89] Arnold VI. <b>Mathematical Methods of Classical Mechanics</b>. New York: Springer-Verlag; 1989.</li>
-          <li>[Jef22] Jeffs M. <b>Classical Mechanics and Symplectic Geometry</b>. Version: May 15, 2022.</li>
-          <li>[Koh02] Kohno T. <b>Conformal Field Theory and Topology</b>. Providence: American Mathematical Society; 2002.</li>
-          <li>[TonQF] Tong D. <b>Lectures on Quantum Field Theory</b> [Internet]. [Accessed on October 13, 2023]. Available from: <a href="https://www.damtp.cam.ac.uk/user/tong/qft.html">https://www.damtp.cam.ac.uk/user/tong/qft.html</a>.</li>
-          <li>[TonQM] Tong D. <b>Lectures on Quantum Mechanics</b> [Internet]. [Accessed on October 13, 2023]. Available from: <a href="https://www.damtp.cam.ac.uk/user/tong/quantum.html">https://www.damtp.cam.ac.uk/user/tong/quantum.html</a>.</li>
-          <li>[TonSQ] Tong D. <b>Lectures on Supersymmetric Quantum Mechanics</b> [Internet]. [Accessed on October 13, 2023]. Available from: <a href="https://www.damtp.cam.ac.uk/user/tong/susyqm.html">https://www.damtp.cam.ac.uk/user/tong/susyqm.html</a>.</li>
-          <li>[Sch02] Schottenloher M. <b>A Mathematical Introduction to Conformal Field Theory</b>. Berlin: Springer; 2002.</li>
-          <li>[SF14] Susskind L, Friedman A. <b>Quantum Mechanics (The Theoretical Minimum)</b>. New York: Basic Books; 2014.</li>
-          <!--	
-            <li>[KS90] M. Kashiwara and P. Schapira. <b>Sheaves on manifolds</b>, Springer-Verlag, Berlin (1990).</li>
-            <li>[Nad16] D. Nadler. <b>Wrapped microlocal sheaves on pairs of pants</b>, (2016). [<a href="https://arxiv.org/abs/1604.00114">arxiv:1604.00114</a>]</li>
-            <li>[Nad17] D. Nadler. <b>Arboreal singularities</b>, Geom. Topol., 21 (2017). [<a href="https://arxiv.org/abs/1309.4122">arxiv:1309.4122</a>]</li>
-            <li>[NZ09] D. Nadler and E. Zaslow. <b>Constructible sheaves and the Fukaya category</b>, J. Amer. Math. Soc., 22 (2009). [<a href="https://arxiv.org/abs/math/0604379">arxiv:0604379</a>]</li>
-            <li>[STZ17] V. Shende, D. Treumann, and E. Zaslow. <b>Legendrian knots and constructible sheaves</b>, Invent. Math., 207 (2017). [<a href="https://arxiv.org/abs/1402.0490">arxiv:1402.0490</a>]</li>
-          -->
-        </ul>
-      </div>
     </div>
   </body>
 </html>
