@@ -156,6 +156,26 @@ table, td {
 
 }
 
+#minipage {
+    width:  100%;
+}
+
+#a, #b-wrapper {
+    float: left;
+}
+
+#a {
+    width: 25%;
+}
+
+#b-wrapper {
+    width: 75%;
+}
+
+#b {
+    margin-left: 30px;
+}
+
 .container:after,
 .row:after,
 .u-cf {
