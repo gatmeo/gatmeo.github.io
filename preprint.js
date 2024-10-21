@@ -11,10 +11,6 @@ function preprint_loadTableData(csvFile, tableId) {
     });
 }
 
-        <ul>
-          <li>[Arn89] Arnold VI. <b>Mathematical Methods of Classical Mechanics</b>. New York: Springer-Verlag; 1989.</li>
-          <li>[Jef22] Jeffs M. <b>Classical Mechanics and Symplectic Geometry</b>. Version: May 15, 2022.</li>
-        </ul>
 function preprint_processData(allText, tableId) {
     var allLines = allText.split(/\r?\n/);
     var table = '<ul>';
