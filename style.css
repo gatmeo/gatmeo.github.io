@@ -104,11 +104,11 @@ h6 { font-size: 1.5rem; line-height: 1.6;  letter-spacing: 0; }
 
 
 .lg-view{
-   display:none;
+  display:none;
 }
 
 .sm-view{
-   display:inline-block;
+  display:inline-block;
 }
 
 @media only screen and (min-width: 500px) {
@@ -118,13 +118,6 @@ h6 { font-size: 1.5rem; line-height: 1.6;  letter-spacing: 0; }
 
     .sm-view{
        display:none;
-    }
-}
-
-@media (not screen) and (max-width: 500px) {
-    .sm-view{
-       display:none;
-       font-size: 200%;
     }
 }
 
